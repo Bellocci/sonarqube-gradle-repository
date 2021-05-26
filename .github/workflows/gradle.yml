@@ -39,6 +39,7 @@ jobs:
         xvfb-run gradle sonarqube
         -Dsonar.organization=belloccifrancesco-github
         -Dsonar.host.url=https://sonarcloud.io
+        -Dsonar.projectKey=Bellocci_sonarqube-gradle-repository
       working-directory: sonarqube-quality
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
