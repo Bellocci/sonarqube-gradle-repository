@@ -173,7 +173,6 @@ sonarqube {
 	
 	properties {
 		property "sonar.projectName", "Example of SonarQube with Gradle"
-		property "sonar.projectKey", "com.examples:code-quality"
 		
 		property "sonar.sourceEncoding", "UTF-8"
 		property "sonar.sources", "src/main/java"
